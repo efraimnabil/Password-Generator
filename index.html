@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Password Generator</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Password Generator</h1>
+        <div class="result" id="res-div">
+            <button class="result" id = "res"> result</button>
+            <div class="message">
+                Copied!
+              </div>
+        </div>
+        <p class="click-to-copy">click to copy</p>
+        <div class="gener">
+            <button class="btn" id="generate">Generate</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="options">
+            <div class="length-continer" >
+                <div class="length-title">
+                    Length: <span id="length">16</span>
+                </div>
+                <div class = "slider-range"> 8 <input id="slider" type="range" min="8" max="32" value="16">32</div>
+            </div>
+            <div class="option">
+                Lowercase
+                <input type="checkbox" id="lowercase" checked>
+                <label for="lowercase"></label>
+            </div>
+            <div class="option">
+                Uppercase
+                <input type="checkbox" id="uppercase" checked>
+                <label for="uppercase"></label>
+            </div>
+            <div class="option">
+                Numbers
+                <input type="checkbox" id="numbers" checked>
+                <label for="numbers"></label>
+            </div>
+            <div class="option">
+                Symbols
+                <input type="checkbox" id="symbols" checked>
+                <label for="symbols"></label>
+            </div>
+        </div>
+    </div>
+    <div id="alert"></div>
+    <script src="script.js"></script>
+</body>
+</html>

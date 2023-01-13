@@ -203,145 +203,43 @@ button.open {
 @media (max-width: 1000px){
     body{
         flex-direction: column;
-        justify-content: space-around;
     }
     .container{
         width: 90%;
-        height: 40%;
-        margin: 0;
+        height: 0%;
+        margin: 180px;
         padding: 0;
     }
     .title{
-        font-size: 30px;
-        margin-bottom: 20px;
+        font-size: 50px;
+        margin-bottom: 80px;
     }
     .result{
-        width: 100%;
-        height: 35px;
+        height: 50px;
         font-size: 15px;
     }
     .length-continer{
-        width: 100%;
-        height: 50px;
-        padding: 5px 5px;
-        margin: 10px 0;
+        height: 70px;
     }
     .length-title{
-        font-size: 15px;
-        margin-bottom: 5px;
+        font-size: 19px;
     }
     .slider-range{
-        display: flex;
-        justify-content: space-between;
-    }
-    #slider{
-        width: 90%;
-        background-color: var(--clr-accent);
-        height: 2px;
-        border-radius: 10px;
-        margin: 0;
-        padding: 0;
-        outline: none;
-        transform: translate(0, 10px);
-        transition: ease;
+        font-size: 19px;
     }
     .options{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
         align-items: center;
     }
     .option{
-        width: 50%;
-        height: 30px;
-        background-color: var(--clr-accent);
-        border-radius: 10px;
-        margin: 5px 0;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        font-size: 15px;
+        width: 90%;
+        height: 50px;
+        font-size: 22px;
     }
-    .option:hover{
-        background-color: rgba(255, 255, 255, 0.1);
-    }
-    input + label{
-        cursor: pointer;
-    }
-    input[type="checkbox"]{
-        display: none;
-    }
-    input[type="checkbox"] + label::before{
-        content: "";
-        display: inline-block;
-        width: 15px;
-        height: 15px;
-        border: 2px solid #fff;
-        border-radius: 5px;
-        margin-right: 10px;
-        vertical-align: middle;
-    }
-    input[type="checkbox"]:checked + label::before{
-        content: "\2713";
-        font-size: 15px;
-        text-align: center;
-        line-height: 15px;
-    }
-    input[type="checkbox"]:disabled + label::before{
-        cursor: not-allowed;
-    }
-    .container .generate{
-        margin: 5px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 15px;
-        cursor: pointer;
+    .generate{
+        font-size: 19px;
     }
     .btn{
-        background-color: var(--clr-light);
-        width: 100%;
         height: 30px;
-        margin-top: 20px;
-        padding: 5px 5px;
-        color: #fff;
-        border: none;
-        border-radius: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 15px;
-        cursor: pointer;
+        font-size: 19px;
     }
-    button.open {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        padding: 5px 10px;
-        background-color: white;
-        border-radius: 10px;
-        cursor: pointer;
-    }
-    .message {
-        visibility: hidden;
-        opacity: 0;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        border-radius: 20px;
-        transform: translate(-50%, -50%);
-        padding: 5px;
-        background-color: var(--clr-accent);
-        transition: all .8s ease-in-out;
-    }
-    .message.show {
-        visibility: visible;
-        opacity: 1;
-    }
-    .close {
-        visibility: hidden;
-    }
-    
 }

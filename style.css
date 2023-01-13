@@ -234,6 +234,11 @@ button.open {
     .slider-range{
         font-size: 20px;
     }
+    #slider{
+        width: 90%;
+        height: 15px;
+        transform: translate(0, 6px);
+    }
     .options{
         align-items: center;
     }

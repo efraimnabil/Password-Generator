@@ -225,18 +225,18 @@ button.open {
         font-size: 25px;
     }
     .length-continer{
-        height: 90px;
+        height: 120px;
         border-radius: 20px;
     }
     .length-title{
-        font-size: 25px;
+        font-size: 35px;
     }
     .slider-range{
-        font-size: 20px;
+        font-size: 30px;
     }
     #slider{
         width: 90%;
-        height: 15px;
+        height: 30px;
         transform: translate(0, 6px);
     }
     .options{
